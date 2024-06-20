@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<title>Product Page</title>
+<link rel="stylesheet" type="text/css" href="eatfresh.css">
+<link href="ABC.css" rel="stylesheet" type="text/css">
+</head>
+	<script>
+	function stickyMenu() {
+		var sticky=document.getElementById('sticky');
+		if(window.pageYOffSet>220){
+			sticky.classList.add('sticky');
+		}
+		else{
+			sticky.classList.remove('sticky');
+		}
+	}
+window.onscroll=function(){
+	stickyMenu();
+}
+</script>
+	
+<body>
+<div class="parallax">
+		<div class="page-title">Eat Fresh</div>
+	    </div>
+	    <div class="menu" id="sticky">
+			
+	    <ul class="menu-ul">
+			
+		  <li class="a-menu"><a href="Grocery.html" class="btn btn-info" role="button">Home</a></li>
+		  <li class="a-menu"><a href="Log1.html" class="btn btn-info" role="button">Login</a></li>
+		  <li class="a-menu"><a href="About1.html" class="btn btn-info" role="button">About us</a></li>
+		  <li class="a-menu"><a href="Contact us1.html" class="btn btn-info" role="button">Contact us</a></li>
+		  <li class="a-menu"><a href="Help.html" class="btn btn-info" role="button">Help</a></li>
+		  <li class="a-menu"><a href="Cart1.html" class="btn btn-info" role="button">Cart</a></li>
+		  
+		</ul>  
+			
+		<div class="search-box">
+			<form>
+			   <input type="text" placeholder="Search..." name="search"
+	            class="search-input">
+			   <button type="submit"><i class="fa fa-search"></i></button>
+           </form>	
+		   </div>	
+	       </div>
+<!--Home Page Begin-->
+  <div class="container">
+	  <a href="#vegetables">
+		  <div class="categories">
+			  <img src="26.jpg" class="item-image">
+			  <div class="image-title">Vegetables</div>
+		  </div>
+		</a>
+	    <a href="#fruits">
+		  <div class="categories">
+			  <img src="06.png" class="item-image">
+			  <div class="image-title">Fruits</div>
+		  </div>
+		</a>
+	    <a href="#meats & fish">
+		  <div class="categories">
+			  <img src="12.jpg" class="item-image">
+			  <div class="image-title">Meats & Fish</div>
+		  </div>
+		</a>
+	 
+		  </div>
+		<!--Deal Begin--->
+			<div class="deals-container" id="deals">
+			  <div class="parallax">
+				<div class="title">   DEALS</div>
+			</div>
+				<div class="deal">
+					Save 15% on min-purchase of $130 on vegetables<br>
+					<button class="coupon-btn">Add Coupon</button>
+				</div>
+				<div class="deal">
+					Save 10% on min-purchase of $150 on fruits<br>
+					<button class="coupon-btn">Add Coupon</button>
+				</div>
+				<div class="deal">
+					Save 5% on min-purchase of $200 on meat<br>
+					<button class="coupon-btn">Add Coupon</button>
+				</div>
+				</div>
+ 		<!--Deal End--->
+     <!--veg Begin--->
+			<div class="deals-container" id="vegetables"></div>
+				<div class="parallax">
+					<div class="title">VEGETABLES</div>
+				</div>
+	   
+				<div class="items"></div>
+					<div class="images">
+						<img src="26.jpg" width="1243" height="499" class="item-image-size">
+					</div>
+				  
+			 <table>
+		 <tbody>
+			<tr>
+			  <td width="268">	  
+				<div class="items">
+					<div class="images">
+						<img src="18.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Onion</b><br/>
+					<div class="item-select">
+						Price : $0.20/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br/>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+	            </div>
+			</div>
+		 </td>
+				  
+			<td width="269">	
+				
+				<div class="items">
+					<div class="images">
+						<img src="16.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Carrot</b><br/>
+					<div class="item-select">
+						Price : $0.25/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br/>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+		</td>
+		<td width="268">
+						<div class="items">
+					<div class="images">
+						<img src="46.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Beans</b><br>
+					<div class="item-select">
+						Price : $0.30/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+		</td>
+		<td width="273">
+					<div class="items">
+					<div class="images">
+						<img src="04.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Potato</b><br>
+					<div class="item-select">
+						Price : $0.15/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+		  
+				</td>
+		   </tr>
+	        </tbody>
+			</table>
+	
+			  
+<!--veg End--->
+	 <!--fruits Begin--->
+			<div class="deals-container" id="Fruits"></div>
+				<div class="parallax">
+					<div class="title">FRUITS</div>
+				</div>
+				<div class="items"></div>
+					<div class="images">
+						<img src="06.png" width="1243" height="499" class="item-image-size">
+					</div>
+	        	  
+			 <table>
+		 <tbody>
+			<tr>
+			  <td>
+				  <div class="items">
+					<div class="images">
+						<img src="25.jpg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Apple</b><br>
+					<div class="item-select">
+						Price : $0.65/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+	            </div>
+			</div>
+				 </td> 
+				<td>
+					<div class="items">
+					<div class="images">
+						<img src="05.jpg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Banana</b><br>
+					<div class="item-select">
+						Price : $0.20/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+			</td>
+			<td>
+						<div class="items">
+					<div class="images">
+						<img src="42.jpg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Papaw</b><br>
+					<div class="item-select">
+						Price : $0.16/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+			</td>
+				<td>
+					<div class="items">
+					<div class="images">
+						<img src="00.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Grapes</b><br>
+					<div class="item-select">
+						Price : $1.35/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+			  </td>
+				
+		 
+		   </tr>
+	        </tbody>
+			</table>
+	
+		 
+     <!--fruits End--->
+	 <!--meats Begin--->
+			<div class="deals-container" id="meats & fish"></div>
+				<div class="parallax">
+					<div class="title">MEATS & FISH</div>
+				</div>
+				<div class="items">
+					<div class="images">
+						<img src="12.jpg" width="1243" height="499" class="item-image-size">
+					</div>
+					
+		<table>
+		  <tbody>
+			 <tr>
+				<td>
+					<div class="items">
+					<div class="images">
+				<img src="49.jpg" width="263" height="185" class="item-image-size">
+				</div>
+				<div class="description">
+					<b>chicken</b><br>
+					<div class="item-select">
+						Price : $2.99/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+				</div>
+			</td>
+			<td>
+					<div class="items">
+					<div class="images">
+						<img src="47.png" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Beef</b><br>
+					<div class="item-select">
+						Price : $2.99/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+				</div>
+			</td>
+			<td>
+						<div class="items">
+					<div class="images">
+						<img src="48.jpg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Kelawalla</b><br>
+					<div class="item-select">
+						Price : $2.99/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+			</td>
+			<td>
+					<div class="items">
+					<div class="images">
+						<img src="07.jpeg" width="263" height="185" class="item-image-size">
+					</div>
+				<div class="description">
+					<b>Seer fish</b><br>
+					<div class="item-select">
+						Price : $2.99/250grams
+					</div>
+					<lable>Qty:</lable>
+					<select class="item-select">
+						<option>250 grams</option>
+						<option>500 grams</option>
+						<option>750 grams</option>
+						<option>1000 grams</option>
+					</select><br>
+					<button class="buy-btn">Buy</button>
+					<button class="cart-btn">Add to cart</button>
+				</div>
+			</div>
+		</td>
+		
+		   </tr>
+	        </tbody>
+			</table>
+		  </div>
+     <!--meats End--->					
+	
+<!--Home Page End-->
+    
+		  
+				
+						
+</body>
+</html>
+	
