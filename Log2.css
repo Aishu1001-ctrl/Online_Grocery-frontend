@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background: url("15x.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.Loginbox {
+    width: 428px;
+    height: 490px;
+    background: rgba(74,211,47,1.00);
+    color: #fff;
+    top: 324px;
+    left: 595px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: 70px 30px;
+}
+
+.User{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -58px;
+    left: 155px;
+}
+
+h1{
+	margin: 0;
+
+	text-align: center;
+	font-size: 22px;
+}
+
+.Loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.Loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Loginbox input[type="text"],[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size:16px;
+}
+
+.Loginbox input[type="submit"]{
+	border: none;
+	border-radius: 20px;
+	background: #fb2525;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size:16px;
+}
+
+.Loginbox input [type="submit"] :hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #fff;
+}
+
+.Loginbox a{
+	text-decoration: none;
+	font-size:12px;
+	line-height: 20px;
+	color: darkgray;
+}
+
+.Loginbox a :hover {
+	color: darkgray;
+}
